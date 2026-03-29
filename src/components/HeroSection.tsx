@@ -16,9 +16,7 @@ export default function HeroSection() {
       <div
         className="absolute inset-0"
         style={{
-          backgroundImage: `
-            url('https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=1600&q=80')
-          `,
+          backgroundImage: `url('https://cdn.poehali.dev/projects/35c55dbe-861b-4c04-a168-039702444445/bucket/21c57824-3b08-40be-a26c-6eb66cf86a4c.jpeg')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -49,9 +47,7 @@ export default function HeroSection() {
         </motion.p>
 
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-widest leading-none mb-4">
-          YASTREBOVA
-          <br />
-          <span className="font-light italic text-white/80">JY</span>
+          JY
         </h1>
 
         <motion.p
@@ -67,21 +63,14 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.7 }}
-          className="flex flex-col sm:flex-row items-center justify-center gap-4"
+          className="flex items-center justify-center"
         >
-          <button
-            onClick={scrollToContacts}
-            data-cta="hero-contact"
-            className="px-8 py-3.5 bg-white text-gray-900 font-semibold text-sm tracking-widest uppercase hover:bg-gray-100 transition-all duration-300 hover:scale-105"
-          >
-            Связаться со мной
-          </button>
           <button
             onClick={() => {
               const el = document.querySelector("#showcase")
               if (el) el.scrollIntoView({ behavior: "smooth" })
             }}
-            className="px-8 py-3.5 border border-white/50 text-white font-medium text-sm tracking-widest uppercase hover:border-white hover:bg-white/10 transition-all duration-300"
+            className="px-6 py-2.5 bg-pink-400 text-white font-medium text-sm tracking-wide rounded-full hover:bg-pink-500 transition-all duration-300"
           >
             Смотреть работы
           </button>
