@@ -16,13 +16,13 @@ export default function HeroSection() {
       <div
         className="absolute inset-0"
         style={{
-          backgroundImage: `url('https://cdn.poehali.dev/projects/35c55dbe-861b-4c04-a168-039702444445/bucket/21c57824-3b08-40be-a26c-6eb66cf86a4c.jpeg')`,
+          backgroundImage: `url('https://cdn.poehali.dev/projects/35c55dbe-861b-4c04-a168-039702444445/files/a18e3733-4cbb-4c17-bad0-29df7dd2dbb3.jpg')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
       />
       {/* Overlay */}
-      <div className="absolute inset-0 bg-black/55" />
+      <div className="absolute inset-0 bg-black/30" />
 
       {/* Texture lines decoration */}
       <div className="absolute inset-0 opacity-10"
