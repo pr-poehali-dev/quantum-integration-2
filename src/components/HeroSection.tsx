@@ -43,7 +43,7 @@ export default function HeroSection() {
           transition={{ duration: 1.2, delay: 0.2 }}
           className="text-xs md:text-sm font-medium tracking-[0.3em] uppercase text-white/70 mb-6"
         >
-          Авторский фэшн-бренд
+          Художник / дизайнер одежды
         </motion.p>
 
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-black tracking-widest leading-none mb-4">

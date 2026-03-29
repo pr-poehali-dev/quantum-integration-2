@@ -11,7 +11,7 @@ export default function ShowcaseSection() {
         <h2 className="text-4xl md:text-5xl font-black tracking-wider text-gray-900 mb-12">ИЛЛЮСТРАЦИИ</h2>
         <TextGradientScroll
           text="Каждый рисунок — это начало истории. Линия, которая становится платьем. Образ, который становится коллекцией. Здесь живут идеи до того, как они превратятся в ткань."
-          className="text-xl md:text-2xl lg:text-3xl font-medium leading-relaxed text-gray-700"
+          className="text-sm md:text-base lg:text-xl font-medium leading-relaxed text-gray-700"
           type="word"
           textOpacity="soft"
         />

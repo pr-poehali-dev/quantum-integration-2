@@ -74,6 +74,18 @@ export const ILLUSTRATIONS = [
     title: "Тренч",
     caption: "Цветные карандаши, 2024",
   },
+  {
+    id: 9,
+    image: "https://cdn.poehali.dev/projects/35c55dbe-861b-4c04-a168-039702444445/bucket/0b17c8cd-fda2-4977-90e1-5795a1e71302.jpeg",
+    title: "Образ с сумкой",
+    caption: "Цветные карандаши, 2024",
+  },
+  {
+    id: 10,
+    image: "https://cdn.poehali.dev/projects/35c55dbe-861b-4c04-a168-039702444445/bucket/d5bd8de4-dea7-4e59-8927-840dbf88849a.jpeg",
+    title: "Dior 1947 / 2025",
+    caption: "Цветные карандаши, 2024",
+  },
 ];
 
 // ============================================================
