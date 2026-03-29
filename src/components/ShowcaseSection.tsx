@@ -18,8 +18,8 @@ export default function ShowcaseSection() {
       </div>
 
       {/* Grid */}
-      <div className="max-w-7xl mx-auto px-6 md:px-8">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="max-w-7xl mx-auto px-3 md:px-8">
+        <div className="grid grid-cols-3 md:grid-cols-3 gap-2 md:gap-6">
           {ILLUSTRATIONS.map((item, index) => (
             <motion.div
               key={item.id}
@@ -29,7 +29,7 @@ export default function ShowcaseSection() {
               viewport={{ once: true }}
               className="group cursor-pointer"
             >
-              <div className="overflow-hidden bg-stone-100 aspect-[4/5] relative">
+              <div className="overflow-hidden bg-stone-100 aspect-[3/4] relative">
                 <img
                   src={item.image}
                   alt={item.title}
@@ -38,9 +38,9 @@ export default function ShowcaseSection() {
                 />
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-all duration-500" />
               </div>
-              <div className="pt-4 pb-2 border-b border-stone-100">
-                <h3 className="font-bold text-gray-900 tracking-wide text-sm uppercase">{item.title}</h3>
-                <p className="text-xs text-gray-400 mt-1">{item.caption}</p>
+              <div className="pt-1.5 pb-1.5 border-b border-stone-100">
+                <h3 className="font-bold text-gray-900 tracking-wide text-[10px] md:text-sm uppercase leading-tight">{item.title}</h3>
+                <p className="text-[9px] md:text-xs text-gray-400 mt-0.5 hidden md:block">{item.caption}</p>
               </div>
             </motion.div>
           ))}
